@@ -9,15 +9,8 @@ import LoadingScreen from "./screens/LoadingScreen";
 import SigninScreen from "./screens/SigninScreen";
 import SignupScreen from "./screens/SignupScreen";
 
-const firebaseConfig = {
-  apiKey: "AIzaSyD07za5hBoYVROHeNtq8uaMQrfFfZEMiR8",
-  authDomain: "reactbootcamp-9c44a.firebaseapp.com",
-  databaseURL: "https://reactbootcamp-9c44a.firebaseio.com",
-  projectId: "reactbootcamp-9c44a",
-  storageBucket: "reactbootcamp-9c44a.appspot.com",
-  messagingSenderId: "853141223186",
-  appId: "1:853141223186:web:03f2d2e91d183945"
-};
+//import firebase config object from FirebaseConfig file
+import { firebaseConfig } from "./FirebaseConfig";
 
 firebase.initializeApp(firebaseConfig);
 //sign in | sign up | Home scree | Loadingscreen(vital)
